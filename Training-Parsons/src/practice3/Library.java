@@ -13,7 +13,6 @@ public class Library <T>{
 	public <T extends Media> addInventory(<T> obj){
 		inventory.add(obj);
 	}
-	
 	public <T extends Media> removeInventory(<T> obj){
 		inventory.remove(obj);
 	}
