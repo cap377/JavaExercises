@@ -4,11 +4,22 @@ import java.util.ArrayList;
 
 public class Library <T>{
 	
-	ArrayList<T> inventory = new ArrayList<T>();
+	private ArrayList<T> inventory;
 	
-	public <T extends Media> Library() {
-		
+	public Library() {
+		this.inventory = new ArrayList<T>();
 	}
 	
+	public <T extends Media> addInventory(<T> obj){
+		inventory.add(obj);
+	}
 	
+	public <T extends Media> removeInventory(<T> obj){
+		inventory.remove(obj);
+	}
+	public printInventory() {
+		for (T item : inventory) {
+			item.toString();
+		}
+	}
 }
