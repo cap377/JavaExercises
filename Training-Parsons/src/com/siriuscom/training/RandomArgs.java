@@ -13,10 +13,7 @@ public class RandomArgs<T> {
 		Random rand = new Random();
 		while (checked < args.length-1) {
 			int randomNum = rand.nextInt(args.length);
-			if (passed.contains(randomNum)) {
-				//pass
-			}
-			else {
+			if (!passed.contains(randomNum)) {
 				System.out.println(args[randomNum].toString());
 				passed.add(randomNum);
 			}

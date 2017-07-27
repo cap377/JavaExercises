@@ -1,4 +1,4 @@
-package com.siriuscom.training.Employee;
+package com.siriuscom.training.employee;
 
 public class SalesPerson extends Employee {
 	public SalesPerson(String name) {

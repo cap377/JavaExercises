@@ -1,4 +1,4 @@
-package com.siriuscom.training.Employee;
+package com.siriuscom.training.employee;
 
 import java.util.Date;
 

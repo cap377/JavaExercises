@@ -1,4 +1,4 @@
-1. A Set would be best as it contains no duplicates.
-2. A Map would be best as it doesn't allow repeats and you could grab the first name only from an employee in the map.
+1. A Set would be best as it contains no duplicates. List
+2. A Map would be best as it doesn't allow repeats and you could grab the first name only from an employee in the map. Set
 3. A List would be best as it allows duplicates, which we would have duplicates of names.
 4. A Queue is best for a waiting list as it implements FIFO.
