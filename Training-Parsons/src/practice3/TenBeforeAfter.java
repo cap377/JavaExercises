@@ -1,5 +1,7 @@
 package practice3;
 
+// Function that returns the current date and the dates 10 days before and after that date.
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.GregorianCalendar;

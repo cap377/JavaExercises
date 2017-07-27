@@ -1,5 +1,7 @@
 package practice3;
 
+//generic library that can hold any media object
+
 import java.util.ArrayList;
 
 public class Library <T>{

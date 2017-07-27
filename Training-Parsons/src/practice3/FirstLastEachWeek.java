@@ -1,5 +1,7 @@
 package practice3;
 
+// Returns the first and last day of the week for every week in the year, starting this week
+
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.TimeZone;

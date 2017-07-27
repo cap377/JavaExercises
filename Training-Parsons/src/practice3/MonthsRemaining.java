@@ -1,5 +1,7 @@
 package practice3;
 
+// Returns number of remaining months in the year.
+
 import java.util.Date;
 
 public class MonthsRemaining {

@@ -1,5 +1,7 @@
 package practice3;
 
+// video media, implementing media interface
+
 public class Video implements Media {
 	private String title;
 	private String author;

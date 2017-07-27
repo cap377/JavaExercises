@@ -1,5 +1,7 @@
 package practice3;
 
+// interface for a media object
+
 public interface Media {
 	public void setTitle(String title);
 	public void setAuthor(String author);

@@ -1,5 +1,7 @@
 package practice3;
 
+// Displays the current date object in several formats
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 

@@ -1,5 +1,7 @@
 package practice3;
 
+//This is the code for question 12, which gets the current time in New York.
+
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.TimeZone;

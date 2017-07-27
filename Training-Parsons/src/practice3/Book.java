@@ -1,5 +1,7 @@
 package practice3;
 
+// book media, implementing media interface
+
 public class Book implements Media {
 	
 	private String title;

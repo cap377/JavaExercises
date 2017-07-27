@@ -1,5 +1,7 @@
 package practice3;
 
+// Class that represents a playing card and holds a rank and suit
+
 public class Card {
 	
 	private Suit suit;
