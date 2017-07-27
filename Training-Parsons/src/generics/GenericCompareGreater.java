@@ -1,7 +1,5 @@
 package generics;
 
-// Takes in a generic object and checks if its greater than a specified passed int value
-
 import java.util.ArrayList;
 
 public class GenericCompareGreater<T> {

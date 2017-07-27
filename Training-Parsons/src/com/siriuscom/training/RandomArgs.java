@@ -1,7 +1,5 @@
 package com.siriuscom.training;
 
-// prints passed arguments in a randome order
-
 import java.util.ArrayList;
 import java.util.Random;
 

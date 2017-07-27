@@ -1,4 +1,4 @@
-package practice3;
+package shapes;
 
 // Generic cuboid class that takes in parameters that extend the number class
 

@@ -1,7 +1,5 @@
 package Phones;
 
-// Phone interface
-
 public interface Phone {
 	public void setColor(String color);
 	public void setCameraResolution(int resolution);

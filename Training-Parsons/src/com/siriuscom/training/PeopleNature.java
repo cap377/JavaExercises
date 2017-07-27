@@ -1,8 +1,5 @@
 package com.siriuscom.training;
 
-// Takes in a string, extracts the names, makes their initials, and returns if the initials are a 
-// palindrome, monotonous, and if they have a twin in the array with the same initials.
-
 public class PeopleNature {
 
 	public static void main(String[] args) {

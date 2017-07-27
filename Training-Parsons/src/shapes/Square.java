@@ -1,7 +1,5 @@
 package shapes;
 
-// Square that implements shape interface
-
 public class Square implements Shape<Integer> {
 
 	private int side;

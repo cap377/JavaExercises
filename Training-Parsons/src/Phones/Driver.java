@@ -1,7 +1,5 @@
 package Phones;
 
-// The driver class that runs the phone generator and runs the quality check on each phone
-
 import java.util.ArrayList;
 
 public class Driver {

@@ -1,22 +1,19 @@
-package practice3;
-
-// Function that returns the current date and the dates 10 days before and after that date.
+package practice3.datestuff;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.GregorianCalendar;
 
 public class TenBeforeAfter {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		SimpleDateFormat format = new SimpleDateFormat("dd:MM:yyyy");
-		Calendar c = new GregorianCalendar();
+		Calendar c = Calendar.getInstance();
 		System.out.println("Current:\t" + format.format(c.getTime()));
-		Calendar before = new GregorianCalendar();
+		Calendar before = Calendar.getInstance();
 		before.add(Calendar.DAY_OF_MONTH, -10);
 		System.out.println("10 before:\t" + format.format(before.getTime()));
-		Calendar after = new GregorianCalendar();
+		Calendar after = Calendar.getInstance();
 		after.add(Calendar.DAY_OF_MONTH, 10);
 		System.out.println("10 after:\t" + format.format(after.getTime()));
 	}

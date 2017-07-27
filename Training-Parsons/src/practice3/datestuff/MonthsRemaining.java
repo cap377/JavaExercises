@@ -1,6 +1,4 @@
-package practice3;
-
-// Returns number of remaining months in the year.
+package practice3.datestuff;
 
 import java.util.Date;
 

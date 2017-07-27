@@ -1,14 +1,11 @@
-package practice3;
+package generics;
 
-// book media, implementing media interface
-
-public class Book implements Media {
-	
+public class Video implements Media {
 	private String title;
 	private String author;
 	private String genre;
 	
-	public Book(String title, String author, String genre) {
+	public Video(String title, String author, String genre) {
 		setTitle(title);
 		setAuthor(author);
 		setGenre(genre);

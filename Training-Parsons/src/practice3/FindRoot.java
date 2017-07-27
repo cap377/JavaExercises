@@ -1,13 +1,9 @@
 package practice3;
 
-// Returns a root of the quadratic function given
-
 public class FindRoot {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// ax^2 + bx + c = 0;
-		// quadratic(a, b, c);
 		System.out.println(quadratic(1,4,-21));
 	}
 	

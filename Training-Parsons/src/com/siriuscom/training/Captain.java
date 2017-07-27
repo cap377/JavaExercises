@@ -1,8 +1,5 @@
 package com.siriuscom.training;
 
-// Captain object, that assigns pirates based on the date whether they will collect fruit or fish and how many of each.
-// He also collects the food from his pirates and feeds them at the end of the day.
-
 import java.util.Random;
 
 public class Captain {

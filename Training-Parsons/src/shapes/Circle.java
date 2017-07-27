@@ -1,7 +1,5 @@
 package shapes;
 
-// Circle that implements shape interface
-
 public class Circle implements Shape<Integer> {
 
 	private int radius;

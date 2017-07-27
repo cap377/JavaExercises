@@ -1,7 +1,5 @@
 package com.siriuscom.training;
 
-// prints out the sum of the numbers in a character array
-
 public class CharSum {
 
 	public static void main(String[] args) {

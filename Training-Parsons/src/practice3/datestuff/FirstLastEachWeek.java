@@ -1,4 +1,4 @@
-package practice3;
+package practice3.datestuff;
 
 // Returns the first and last day of the week for every week in the year, starting this week
 
@@ -11,7 +11,7 @@ public class FirstLastEachWeek {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Calendar calendar = new GregorianCalendar();
-		calendar.set(Calendar.DAY_OF_WEEK, 1);
+		calendar.set(Calendar.DAY_OF_WEEK, Calendar.SUNDAY);
 		for (int i = 0; i < 52; i++) {
 			System.out.println("Beginning: " + calendar.getTime());
 			calendar.add(Calendar.DAY_OF_WEEK, 6);

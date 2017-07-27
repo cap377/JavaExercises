@@ -1,7 +1,5 @@
 package Phones;
 
-// Samsung phone object that implements phone interface
-
 public class Samsung implements Phone {
 	
 	private int cameraRes;
