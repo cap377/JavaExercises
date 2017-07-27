@@ -19,6 +19,10 @@ public class Cuboid<T> {
 		return output;
 	}
 	
+	public Double getVolume() {
+		return length.doubleValue() * breadth.doubleValue() * height.doubleValue();
+	}
+	
 	public <T extends Number> void setLength(T newLength){
 		this.length = newLength;
 	}
