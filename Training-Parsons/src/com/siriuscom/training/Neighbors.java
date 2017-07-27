@@ -1,5 +1,7 @@
 package com.siriuscom.training;
 
+// prints out the index in the array where the differenced between the ith and i+1 index is smallest.
+
 public class Neighbors {
 
 	public static void main(String[] args) {

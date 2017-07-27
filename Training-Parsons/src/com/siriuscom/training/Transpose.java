@@ -1,5 +1,7 @@
 package com.siriuscom.training;
 
+// returns the transpose of a square array
+
 public class Transpose {
 	
 	public static void main(String[] args) {

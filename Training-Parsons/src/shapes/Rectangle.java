@@ -1,5 +1,7 @@
 package shapes;
 
+// Rectangle that implements shape interface
+
 public class Rectangle implements Shape<Integer>{
 	
 	int length;

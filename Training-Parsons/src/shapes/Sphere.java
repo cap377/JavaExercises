@@ -1,5 +1,7 @@
 package shapes;
 
+// sphere that implements shaper interface
+
 public class Sphere implements Shape<Integer> {
 	
 	private int radius;

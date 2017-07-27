@@ -1,5 +1,7 @@
 package com.siriuscom.training;
 
+// takes a day, month, and year and prints out the day of the week it was on that day.
+
 public class DayOfWeek {
 
 	public static void main(String[] args) {

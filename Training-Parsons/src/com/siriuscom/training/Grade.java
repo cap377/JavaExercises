@@ -1,5 +1,7 @@
 package com.siriuscom.training;
 
+// takes in a double point object and prints out the appropriate grade
+
 public class Grade {
 
 	public static void main(String[] args) {

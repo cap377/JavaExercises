@@ -1,5 +1,7 @@
 package com.siriuscom.training;
 
+// Pirate object that holds a task for what food and how many they should collect.
+
 public class Pirate {
 	
 	private String task;

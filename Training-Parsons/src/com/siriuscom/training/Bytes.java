@@ -1,5 +1,7 @@
 package com.siriuscom.training;
 
+// takes in a number of bytes and returns the largest measurement up to gigabytes
+
 public class Bytes {
 
 	public static void main(String[] args) {

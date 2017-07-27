@@ -1,5 +1,8 @@
 package com.siriuscom.training;
 
+// Driver that simulates Captain managing pirates over the course of 100 days. Prints out what day it is and 
+// how much food they have at the end of the day from Captian class.
+
 public class PirateDriver {
 
 	public static void main(String[] args) {

@@ -1,5 +1,7 @@
 package com.siriuscom.training;
 
+// Is supposed to check if a string is an anagram of another string. Currently does not work
+
 public class AnagramCheck {
 
 	public static void main(String[] args) {

@@ -1,5 +1,7 @@
 package Phones;
 
+// Phone generater class which makes 5 of each phone
+
 import java.util.ArrayList;
 
 public class PhoneGenerator {
