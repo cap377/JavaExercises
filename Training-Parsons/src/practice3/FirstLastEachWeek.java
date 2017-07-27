@@ -11,8 +11,7 @@ public class FirstLastEachWeek {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Calendar calendar = new GregorianCalendar();
-		calendar = Calendar.getInstance();
-		calendar.add(Calendar.DAY_OF_WEEK, -3);
+		calendar.set(Calendar.DAY_OF_WEEK, 1);
 		for (int i = 0; i < 52; i++) {
 			System.out.println("Beginning: " + calendar.getTime());
 			calendar.add(Calendar.DAY_OF_WEEK, 6);
