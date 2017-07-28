@@ -30,7 +30,7 @@ public class NumberAsker {
 			// trying to parse integer from string
 			try {
 				num = Integer.parseInt(numS);
-			} catch(Exception e) {
+			} catch(NumberFormatException e) {
 				// converting string to an integer for random results
 				num = numS.hashCode() % 10;
 				System.out.println(e.getMessage());
@@ -47,7 +47,7 @@ public class NumberAsker {
 			// trying to parse integer from string
 			try {
 				denom = Integer.parseInt(denomS);
-			} catch(Exception e) {
+			} catch(NumberFormatException e) {
 				// converting string to an integer for random results
 				denom = denomS.hashCode() % 10;
 				System.out.println(e.getMessage());

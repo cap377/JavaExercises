@@ -15,6 +15,10 @@ public class AverageMarkCalculator {
 		while(true) {
 			System.out.print("Please enter 10 integer values to average: ");
 			numbersString = scan.nextLine();
+			if (numbersString.equals("exit")) {
+				System.out.println("Exiting program...");
+				break;
+			}
 			// removing leading whitespace and replaces multiple spaces with 1
 			numbersString = numbersString.trim().replaceAll("( )+", " ");
 			System.out.println(numbersString);
@@ -32,6 +36,7 @@ public class AverageMarkCalculator {
 			}
 			System.out.println(average(numberArray));
 		}
+		scan.close();
 	}
 	public static int average(List<Integer> numbers) {
 		int total = 0;
