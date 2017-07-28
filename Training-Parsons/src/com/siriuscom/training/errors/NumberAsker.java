@@ -10,7 +10,6 @@ public class NumberAsker {
 
 	public static void main(String[] args) {
 		
-		String regex = "[0-9]+";// Regular expression to check against string, making sure it only contains numbers
 		String numS;			// string to hold potential numerator
 		String denomS;			// string to hold potential denominator
 		int num;				// for numerator integer
@@ -57,6 +56,7 @@ public class NumberAsker {
 			// sends numbers to math function
 			processNum(num, denom);
 		}
+		scan.close();
 		System.out.println("Exited program.");
 	}
 	
