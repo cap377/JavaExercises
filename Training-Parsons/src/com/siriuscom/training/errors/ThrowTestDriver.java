@@ -1,5 +1,7 @@
 package com.siriuscom.training.errors;
 
+// Driver testing ThrowTest class method.
+
 import java.io.IOException;
 
 public class ThrowTestDriver {

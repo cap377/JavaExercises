@@ -1,5 +1,7 @@
 package com.siriuscom.training.errors;
 
+// Class with method throwing an exception
+
 import java.io.IOException;
 
 public class ThrowTest{
